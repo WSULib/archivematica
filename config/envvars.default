@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+# Contain Environment variables for installs
+#
+
+# server hosts
+ARCHIVEMATICA_HOST='192.168.42.3'
+FEDORA_STACK_WORKDEV_HOST='192.168.42.4'
+FEDORA_STACK_STORAGE_HOST='192.168.42.6'
+
+# users
+ARCHIVEMATICA_USER_PASSWORD='archivematica'
+
+# SQL
+SQL_PASSWORD='mybadpassword'
+

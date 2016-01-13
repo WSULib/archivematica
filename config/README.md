@@ -1,0 +1,1 @@
+Configuration files you need to port around can be placed here. For example, envvars.default is here, and your local envvars would be here, too. Other files for inclusion might be a Solr schema or other non-sensitive data. 
