@@ -30,8 +30,8 @@ ssh-keygen -f ~/.ssh/id_rsa -N ''
 
 # connect to sip_storage on fedora-stack-storage
 sshpass -p "$ARCHIVEMATICA_USER_PASSWORD" ssh-copy-id -o StrictHostKeyChecking=no archivematica@$FEDORA_STACK_STORAGE_HOST
-sshfs archivematica@$FEDORA_STACK_STORAGE_HOST:/assets/sip_storage /assets/sip_storage
+# sshfs archivematica@$FEDORA_STACK_STORAGE_HOST:/assets/sip_storage /assets/sip_storage
 
 # connect to aip_storage on fedora-stack-workdev
 sshpass -p "$ARCHIVEMATICA_USER_PASSWORD" ssh-copy-id -o StrictHostKeyChecking=no archivematica@$FEDORA_STACK_WORKDEV_HOST
-sshfs archivematica@$FEDORA_STACK_WORKDEV_HOST:/assets/aip_storage /assets/aip_storage
+# sshfs archivematica@$FEDORA_STACK_WORKDEV_HOST:/assets/aip_storage /assets/aip_storage
