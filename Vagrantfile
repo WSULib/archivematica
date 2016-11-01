@@ -20,7 +20,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   shared_dir = "/vagrant"  
 
   config.vm.provision "shell", path: "./install_scripts/bootstrap.sh", args: shared_dir
-  config.vm.provision "shell", path: "./install_scripts/storage_setup.sh", privileged: false, args: shared_dir
+  # config.vm.provision "shell", path: "./install_scripts/storage_setup.sh", privileged: false, args: shared_dir
   config.vm.provision "shell", path: "./install_scripts/archivematica.sh", args: shared_dir
 
 end
